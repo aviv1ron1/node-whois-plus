@@ -1,0 +1,24 @@
+{
+    "name": "node-whois-plus",
+    "version": "0.0.1",
+    "description": "obtain whois for domain and parse it into an object",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/aviv1ron1/node-whois-plus.git"
+    },
+    "author": {
+        "name": "Aviv Ron",
+        "email": "aviv1ron1@gmail.com"
+    },
+    "dependencies": {
+        "whois": "^2.1.5"
+    },
+    "keywords": [
+        "whois",
+        "registrar",
+        "domain",
+        "tld"
+    ],
+    "main": "index.js",
+    "license": "MIT"
+}

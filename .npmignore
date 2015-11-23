@@ -1,0 +1,9 @@
+.git*
+*.coffee
+Makefile
+
+*.sublime-*
+
+test.js
+test.txt
+test.out.txt

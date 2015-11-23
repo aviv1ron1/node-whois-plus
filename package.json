@@ -1,6 +1,6 @@
 {
     "name": "node-whois-plus",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "obtain whois for domain and parse it into an object",
     "repository": {
         "type": "git",

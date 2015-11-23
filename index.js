@@ -3,7 +3,7 @@ var w = require('whois');
 var setAttr = function(obj, data, key, expr) {
     var match = expr.exec(data);
     if (match && match[1]) {
-        obj[key] = match[1].replace(/\n/g, "");
+        obj[key] = match[1].replace(/(\r\n|\n|\r)/gm, "");
     } else {
         obj[key] = null;
     }
